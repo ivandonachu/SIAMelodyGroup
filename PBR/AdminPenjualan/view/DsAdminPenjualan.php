@@ -201,8 +201,10 @@ function getHari($date)
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="VPenjualan">Penjualan</a>
-                        <a class="collapse-item" href="VPembelian">Pembelian</a>
+                        <a class="collapse-item" href="VPenjualanPSO">Penjualan PSO</a>
+                        <a class="collapse-item" href="VPenjualanNonPSO">Penjualan Non PSO</a>
+                        <a class="collapse-item" href="VPembelianPSO">Pembelian PSO</a>
+                        <a class="collapse-item" href="VPembelianNonPSO">Pembelian Non PSO</a>
                         <a class="collapse-item" href="VTransportFee">Transport Fee</a>
                         <a class="collapse-item" href="VLaporanInventory">Laporan Inventory</a>
                     </div>
@@ -222,7 +224,7 @@ function getHari($date)
                 </div>
             </li>
 
-            <!-- Nav Item - Menu Anggota -->
+            <!-- Nav Item - Menu SDM -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities2" aria-expanded="true" aria-controls="collapseUtilities2">
                     <i class="fa-solid fa-people-group"></i>
@@ -235,7 +237,7 @@ function getHari($date)
                 </div>
             </li>
 
-            <!-- Nav Item - Menu Anggota -->
+            <!-- Nav Item - Menu Aset -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fa-solid fa-people-group"></i>
@@ -346,7 +348,7 @@ function getHari($date)
                     <br>
                     <br>
 
-              
+
 
 
                 </div>
